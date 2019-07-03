@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Trig Transformations</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="jsxgraph.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <header role="banner">
+        <h1>Trig Transformations</h1>
+    </header>
+    <main>
+        <form>
+            <div class="input">
+                <label for="func">Function</label>
+                <select id="funcSelect">
+                    <option value="sin">sin</option>
+                    <option value="cos">cos</option>
+                    <option value="tan">tan</option>
+                    <option value="sec">sec</option>
+                    <option value="csc">csc</option>
+                    <option value="cot">cot</option>
+                </select><br>
+            </div>
+            <div class="input">
+                <label id="aLabel" for="a">a = 1.0</label><input id="aSlider" name="a" type="range" min="-5" max="5"
+                    value="1.0" step="0.1">
+            </div>
+            <div class="input">
+                <label id="bLabel" for="b">b = 1.0</label><input id="bSlider" name="b" type="range" min="-5" max="5"
+                    value="1.0" step="0.1"><br>
+            </div>
+            <div class="input">
+                <label id="cLabel" for="c">c = 0.0</label><input id="cSlider" name="c" type="range" min="-5" max="5"
+                    value="0.0" step="0.1"><br>
+            </div>
+            <div class="input">
+                <label id="dLabel" for="d">d = 0.0</label><input id="dSlider" name="d" type="range" min="-5" max="5"
+                    value="0.0" step="0.1"><br>
+            </div>
+            <div id="jxgbox" class="jxgbox">
+            </div>
+        </form>
+    </main>
+    <footer>
+        <small>Copyright &copy;2019 <a href="https://cousinomath.website">Andrew Cousino</a></small>
+    </footer>
+    <script src="jsxgraphcore.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

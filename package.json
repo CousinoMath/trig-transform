@@ -1,0 +1,22 @@
+{
+  "name": "trig-transform",
+  "version": "0.0.0",
+  "description": "A page illustrating transformations of trig functions.",
+  "main": "./dist/index.html",
+  "repository": "https://github.com/CousinoMath/trig-transform.git",
+  "author": "Andrew Cousino <cousinomath@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "css": "compass compile"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^5.0.3",
+    "webpack": "^4.35.2",
+    "webpack-cli": "^3.3.5"
+  },
+  "dependencies": {
+    "jsxgraph": "^0.99.7"
+  }
+}
